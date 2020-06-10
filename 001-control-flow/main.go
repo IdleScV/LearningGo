@@ -3,11 +3,12 @@ package main
 import "fmt"
 
 func main(){
+	// main is always called to start the application
 	fmt.Println("Starting Application")
 
 	app()
 	
-
+	// application ends when it hits the last line of main
 	fmt.Println("Closing Application")
 }
 
