@@ -1,6 +1,7 @@
 package main
 
 import "fmt"
+
 // ! Ninja Level 1 [https://docs.google.com/document/d/1ckYpi6hcRkaBUEk975f54oGsHYHu7GhzOk7-nOrkNxo/edit#]
 func main() {
 	exercise_1()
@@ -19,7 +20,7 @@ func exercise_1() {
 	x := 42
 	y := "James Bond"
 	z := true
-	
+
 	fmt.Println(x)
 	fmt.Println(y)
 	fmt.Println(z)
@@ -31,6 +32,7 @@ func exercise_1() {
 var x int
 var y string
 var z bool
+
 func exercise_2() {
 	fmt.Println(x)
 	fmt.Println(y)
@@ -39,8 +41,7 @@ func exercise_2() {
 	endSection()
 }
 
-
-func exercise_3(){
+func exercise_3() {
 	x = 42
 	y = "James Bond"
 	z = true
@@ -51,9 +52,10 @@ func exercise_3(){
 }
 
 type chickenNugget int
-var nugget chickenNugget 
 
-func exercise_4(){
+var nugget chickenNugget
+
+func exercise_4() {
 	fmt.Println(nugget)
 	fmt.Printf("%T\n", nugget)
 	nugget = 42
@@ -65,7 +67,7 @@ func exercise_4(){
 var newNugget chickenNugget
 var nonNugget int
 
-func exercise_5(){
+func exercise_5() {
 	fmt.Println(newNugget)
 	fmt.Printf("%T\n", newNugget)
 
@@ -81,11 +83,9 @@ func exercise_5(){
 	fmt.Println(nonNugget)
 	fmt.Printf("%T\n", nonNugget)
 
-	
-
 	endSection()
 }
 
-func exercise_6(){
+func exercise_6() {
 	fmt.Println("Total points 32/36")
 }
