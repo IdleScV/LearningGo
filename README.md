@@ -8,4 +8,4 @@ This is a repository for all my
 
 ## Notes for self...
 
-- run `go fmt ./...` before commiting to format code
+- run `go fmt ./...` before commiting to format all go code in current directory & beyond
