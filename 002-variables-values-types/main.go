@@ -132,6 +132,9 @@ func customType() {
 
 	a = 40
 	b = 80
+
+	//* It's possible to reassign multiple variables at once
+	a, b = 20, 30
 	fmt.Println("a:", a)
 	fmt.Printf("%T\n", a)
 	fmt.Println("b:", b)

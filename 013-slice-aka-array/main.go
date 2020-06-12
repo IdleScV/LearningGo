@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-//! Array is also known as a slice
+//! Array is also known as a slice. Slice has a limit in capacity, array doesn't.
 //* a SLICE allows you to group together values of the same TYPE
 
 func main() {
@@ -59,7 +59,7 @@ func loop() {
 	}
 
 	endSection()
-}
+}	
 
 func sliceTheSlice() {
 	x := []int{4, 5, 6, 8, 42}
