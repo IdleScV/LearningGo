@@ -1,6 +1,5 @@
 package main
 
-
 import "fmt"
 
 func main() {
@@ -10,4 +9,12 @@ func main() {
 	fmt.Println(true || false)
 	fmt.Println(!true)
 	fmt.Println(!false)
+	fmt.Println(`
+		All Operators
++    &     +=    &=     &&    ==    !=    (    )
+-    |     -=    |=     ||    <     <=    [    ]
+*    ^     *=    ^=     <-    >     >=    {    }
+/    <<    /=    <<=    ++    =     :=    ,    ;
+%    >>    %=    >>=    --    !     ...   .    :
+     &^          &^=`)
 }

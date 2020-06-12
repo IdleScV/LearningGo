@@ -88,6 +88,6 @@ func exercise_9() {
 	}
 }
 
-func exercise_10(){
+func exercise_10() {
 	fmt.Println("true	false	true	true	false")
 }
